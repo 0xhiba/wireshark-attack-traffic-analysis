@@ -20,10 +20,10 @@ This project was built as a self-directed learning exercise to develop practical
 | [nmap-standard-scan](./nmap-standard-scan/nmap-standard-scan.md) | SYN Port Scan | Automated port discovery via SYN-only probes |
 | [nmap-ack-scan-port80](./nmap-ack-scan-port80/nmap-ack-scan-port80.md) | ACK Scan | Stateful firewall detection via out-of-state ACK packets |
 | [nmap-ack-scan-evasion](./nmap-ack-scan-evasion/nmap-ack-scan-evasion.md) | ACK + Fragmentation + IP Spoofing | IDS evasion combined with attacker identity concealment |
-| nmap-zombie-scan | Idle/Zombie Scan | Complete attacker invisibility via third-party IP ID exploitation |
-| nmap-os-scan | Failed OS Fingerprint | OS detection attempt on fully filtered target |
-| nmap-os-scan-successful | Successful OS Fingerprint | OS identification via TCP/IP stack response behavior |
-| smtp-analysis | Cleartext Credential Interception | Decoding base64 AUTH LOGIN credentials from plaintext SMTP |
+| [nmap-zombie-scan](./nmap-zombie-scan/nmap-zombie-scan.md) | Idle/Zombie Scan | Complete attacker invisibility via third-party IP ID exploitation |
+| [nmap-os-scan](./nmap-os-scan/nmap-os-scan.md) | Failed OS Fingerprint | OS detection attempt on fully filtered target |
+| [nmap-os-scan-successful](./nmap-os-scan-successful/nmap-os-scan-successful.md) | Successful OS Fingerprint | OS identification via TCP/IP stack response behavior |
+| [smtp-analysis](./smtp-analysis/smtp-analysis.md) | Cleartext Credential Interception | Decoding base64 AUTH LOGIN credentials from plaintext SMTP |
 
 ## Project Structure
 
@@ -33,4 +33,3 @@ Each folder contains a markdown analysis file and annotated Wireshark screenshot
 - Filters applied and packet-level evidence
 - Root cause explanation
 - Attacker vs. defender perspective
-
